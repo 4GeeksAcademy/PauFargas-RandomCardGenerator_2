@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+#card {
+  background-color: white;
+  border-radius: 15px;
+  height: 400px;
+  width: 250px;
+  position: relative;
+  display: inline-block;
+  border-width: 30px;
+  border-color: red;
+  margin-top: 139px;
+}
+
+#cardNumber {
+  font-size: 135px;
+  margin: 81px;
+}
+
+#paloSuperior {
+  position: absolute;
+  left: 15px;
+  font-size: 75px;
+}
+
+#paloInferior {
+  position: absolute;
+  right: 15px;
+  font-size: 75px;
+  rotate: 180deg;
+  margin-top: -45px;
+  bottom: 0px;
+}
