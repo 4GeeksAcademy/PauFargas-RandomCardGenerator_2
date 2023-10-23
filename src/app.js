@@ -7,6 +7,8 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   // Write your code here
+  const button = document.getElementById("buttonGenerateCard");
+  button.addEventListener("click", window.onload);
   function generateRandomSuit() {
     const suits = ["♥", "♦", "♣", "♠"];
     const randomSuit = suits[Math.floor(Math.random() * suits.length)];
@@ -24,6 +26,7 @@ window.onload = function() {
       "7",
       "8",
       "9",
+      "10",
       "J",
       "Q",
       "K"
@@ -47,5 +50,8 @@ window.onload = function() {
   if (randomSuit == "♥" || randomSuit == "♦") {
     paloSuperiorElement.style.color = "red";
     paloInferiorElement.style.color = "red";
+  } else {
+    paloSuperiorElement.style.color = "black";
+    paloInferiorElement.style.color = "black";
   }
 };

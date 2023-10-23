@@ -18,7 +18,7 @@ body {
 
 #cardNumber {
   font-size: 135px;
-  margin: 81px;
+  margin: auto;
 }
 
 #paloSuperior {
@@ -34,4 +34,12 @@ body {
   rotate: 180deg;
   margin-top: -45px;
   bottom: 0px;
+}
+
+#cardNumber {
+  margin-top: 83px;
+}
+
+#buttonGenerateCard {
+  margin-left: 20px;
 }

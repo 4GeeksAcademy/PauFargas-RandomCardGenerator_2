@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Random Card Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -16,9 +16,12 @@
     <div class="container-fluid text-center justify-center">
       <div id="card" class="col-4">
         <div><span id="paloSuperior"></span></div>
-        <div><p id="cardNumber"></p></div>
+        <div id="cardNumber"><p></p></div>
         <div><span id="paloInferior"></span></div>
       </div>
+      <button type="button" class="btn btn-warning" id="buttonGenerateCard">
+        Give me another card
+      </button>
     </div>
   </body>
 </html>
